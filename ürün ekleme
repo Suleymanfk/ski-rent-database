@@ -1,0 +1,80 @@
+
+
+-- Skis kategorisine ait ekipmanlar
+INSERT INTO equipment (name, description, image_url, hourly_rate, is_available, category_id) VALUES
+('Atomic Redster X9', 'High-performance ski for experts', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 50.00, TRUE, 1),
+('Salomon XDR 80 Ti', 'All-mountain ski with stability and versatility', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 45.00, TRUE, 1),
+('Rossignol Experience 88 Ti', 'Great for intermediate skiers', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 40.00, TRUE, 1),
+('K2 Pinnacle 95', 'Skis built for deep powder and aggressive turns', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 55.00, TRUE, 1),
+('Head Super Joy', 'Lightweight ski for all types of terrain', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 48.00, TRUE, 1),
+('Volkl Mantra M6', 'Stable all-mountain skis with edge grip', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 52.00, TRUE, 1),
+('Elan Ripstick 96', 'Great float and carving in powder', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 49.00, TRUE, 1),
+('Blizzard Rustler 9', 'Freeride skis ideal for soft snow', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 51.00, TRUE, 1),
+('Faction CT 2.0', 'Twin-tip skis for freestyle and all-mountain', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 46.00, TRUE, 1),
+('DPS Foundation 100 RP', 'Powder-focused lightweight skis', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 58.00, TRUE, 1),
+('Black Crows Camox', 'All-mountain skis with playful character', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 47.00, TRUE, 1),
+('Dynastar M-Pro 90', 'Versatile freeride skis', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 53.00, TRUE, 1),
+('Icelantic Nomad 105', 'Big mountain skis with rocker tips', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 55.00, TRUE, 1),
+('Kästle FX86', 'High-performance directional ski', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 54.00, TRUE, 1),
+('Armada ARV 96', 'Freestyle all-mountain ski', 'https://productimage001.snowandrock.com/productimages/550x825/e5aa3c0054_1070_j.jpg', 50.00, TRUE, 1);
+
+
+
+-- Snowboards kategorisine ait ekipmanlar
+INSERT INTO equipment (name, description, image_url, hourly_rate, is_available, category_id) VALUES
+('Burton Custom', 'Iconic snowboard for all conditions', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 60.00, TRUE, 2),
+('K2 Happy Hour', 'A fun all-mountain board for various skill levels', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 55.00, TRUE, 2),
+('Lib Tech T.Rice Pro', 'Versatile snowboard designed for aggressive riders', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 70.00, TRUE, 2),
+('GNU Rider’s Choice', 'Freestyle board with responsive edge control', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 65.00, TRUE, 2),
+('Rome Agent', 'Performance-driven board for expert riders', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 75.00, TRUE, 2),
+('Capita DOA', 'Award-winning snowboard for freestyle riders', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 62.00, TRUE, 2),
+('Yes Basic', 'Reliable all-around snowboard', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 59.00, TRUE, 2),
+('Arbor Element', 'Eco-friendly all-mountain board', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 63.00, TRUE, 2),
+('Jones Mountain Twin', 'Directional twin board for versatility', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 68.00, TRUE, 2),
+('Ride Warpig', 'Short, fat board with big performance', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 66.00, TRUE, 2),
+('Nidecker Escape', 'Smooth carving and control', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 60.00, TRUE, 2),
+('Rome Stale Crewzer', 'Park board for stylish tricks', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 65.00, TRUE, 2),
+('Bataleon Goliath', 'Triple base tech for playful ride', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 64.00, TRUE, 2),
+('Salomon Huck Knife', 'Freestyle board for parks and jumps', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 61.00, TRUE, 2),
+('Never Summer Proto Synthesis', 'Camber-rocker hybrid board', 'https://productimage001.snowandrock.com/productimages/550x825/e5bb3a0130_8989_a.jpg', 69.00, TRUE, 2);
+
+-- Ski Boots kategorisine ait ekipmanlar
+INSERT INTO equipment (name, description, image_url, hourly_rate, is_available, category_id) VALUES
+('Tecnica Mach1', 'Customizable ski boot for precision', 'https://productimage001.snowandrock.com/productimages/550x825/j11141614141m.jpg', 30.00, TRUE, 3),
+('Salomon S/Pro 120', 'Ski boot with excellent fit and comfort', 'https://productimage001.snowandrock.com/productimages/550x825/j11141614141m.jpg', 35.00, TRUE, 3),
+('Nordica Speedmachine 3', 'Comfortable and powerful ski boot', 'https://productimage001.snowandrock.com/productimages/550x825/j11141614141m.jpg', 40.00, TRUE, 3),
+('Atomic Hawx Prime', 'Flexible boot for all-mountain use', 'https://productimage001.snowandrock.com/productimages/550x825/j11141614141m.jpg', 38.00, TRUE, 3),
+('Dalbello Lupo', 'Freeride ski boot with great power transfer', 'https://productimage001.snowandrock.com/productimages/550x825/j11141614141m.jpg', 45.00, TRUE, 3);
+
+-- Helmets kategorisine ait ekipmanlar
+INSERT INTO equipment (name, description, image_url, hourly_rate, is_available, category_id) VALUES
+('Smith Vantage', 'Advanced ski helmet with adjustable ventilation', 'https://productimage001.snowandrock.com/productimages/550x825/e4gc3a0035_7036_a.jpg', 20.00, TRUE, 4),
+('Giro Range MIPS', 'Helmet with Multi-Directional Impact Protection System', 'https://productimage001.snowandrock.com/productimages/550x825/e4gc3a0035_7036_a.jpg', 22.00, TRUE, 4),
+('Bern Watts', 'Stylish helmet for park and street skiers', 'https://productimage001.snowandrock.com/productimages/550x825/e4gc3a0035_7036_a.jpg', 18.00, TRUE, 4),
+('Oakley Mod 5', 'High-tech helmet with audio compatibility', 'https://productimage001.snowandrock.com/productimages/550x825/e4gc3a0035_7036_a.jpg', 25.00, TRUE, 4),
+('Poc Obex SPIN', 'Lightweight and safe ski helmet', 'https://productimage001.snowandrock.com/productimages/550x825/e4gc3a0035_7036_a.jpg', 28.00, TRUE, 4);
+
+-- Googles kategorisine ait ekipmanlar
+INSERT INTO equipment (name, description, image_url, hourly_rate, is_available, category_id) VALUES
+('Oakley Flight Deck', 'Wide field of view goggles with PRIZM lens', 'https://productimage001.snowandrock.com/productimages/550x825/e4ga390294_7053_a.jpg', 15.00, TRUE, 5),
+('Smith I/O MAG', 'Magnetic lens goggle for easy swapping', 'https://productimage001.snowandrock.com/productimages/550x825/e4ga390294_7053_a.jpg', 18.00, TRUE, 5),
+('Giro Axis', 'High-performance goggles with anti-fog coating', 'https://productimage001.snowandrock.com/productimages/550x825/e4ga390294_7053_a.jpg', 16.00, TRUE, 5),
+('Anon M4', 'Goggles with interchangeable lens system', 'https://productimage001.snowandrock.com/productimages/550x825/e4ga390294_7053_a.jpg', 20.00, TRUE, 5),
+('Dragon NFX2', 'Spherical lens goggles for enhanced visibility', 'https://productimage001.snowandrock.com/productimages/550x825/e4ga390294_7053_a.jpg', 17.00, TRUE, 5);
+
+-- Jackets kategorisine ait ekipmanlar
+INSERT INTO equipment (name, description, image_url, hourly_rate, is_available, category_id) VALUES
+('Arc’teryx Sabre AR', 'Waterproof and breathable ski jacket', 'https://productimage001.snowandrock.com/productimages/550x825/e12aca0324_5151_a.jpg', 40.00, TRUE, 6),
+('Patagonia Tres 3-in-1', 'Versatile jacket for all conditions', 'https://productimage001.snowandrock.com/productimages/550x825/e12aca0324_5151_a.jpg', 45.00, TRUE, 6),
+('Columbia Whirlibird IV', 'Warm and waterproof jacket for extreme conditions', 'https://productimage001.snowandrock.com/productimages/550x825/e12aca0324_5151_a.jpg', 38.00, TRUE, 6),
+('The North Face McMurdo', 'Heavy-duty jacket for cold weather', 'https://productimage001.snowandrock.com/productimages/550x825/e12aca0324_5151_a.jpg', 50.00, TRUE, 6),
+('Marmot Fordham', 'Insulated ski jacket with advanced weather protection', 'https://productimage001.snowandrock.com/productimages/550x825/e12aca0324_5151_a.jpg', 42.00, TRUE, 6);
+
+-- Pants kategorisine ait ekipmanlar
+INSERT INTO equipment (name, description, image_url, hourly_rate, is_available, category_id) VALUES
+('Patagonia Snowshot', 'Durable waterproof ski pants', 'https://productimage001.snowandrock.com/productimages/550x825/h1214353_5151_a.jpg', 30.00, TRUE, 7),
+('Columbia Ridge 2 Run', 'All-weather pants for skiing and snowboarding', 'https://productimage001.snowandrock.com/productimages/550x825/h1214353_5151_a.jpg', 32.00, TRUE, 7),
+('The North Face Freedom Insulated', 'Insulated pants for cold weather', 'https://productimage001.snowandrock.com/productimages/550x825/h1214353_5151_a.jpg', 35.00, TRUE, 7),
+('Arc’teryx Sabre Pants', 'Ski pants with water resistance and breathability', 'https://productimage001.snowandrock.com/productimages/550x825/h1214353_5151_a.jpg', 38.00, TRUE, 7),
+('Marmot Colossus', 'Heavy-duty ski pants with ample storage', 'https://productimage001.snowandrock.com/productimages/550x825/h1214353_5151_a.jpg', 40.00, TRUE, 7);
+
