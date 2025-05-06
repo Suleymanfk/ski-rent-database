@@ -1,0 +1,9 @@
+-- Kategorileri ekleyelim
+INSERT INTO equipment_category (category_id, category_name, image_url) VALUES
+(1, 'Skis','https://images.pexels.com/photos/14653038/pexels-photo-14653038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'),
+(2, 'Snowboards','https://images.pexels.com/photos/3869851/pexels-photo-3869851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'),
+(3, 'Ski Boots','https://productimage001.snowandrock.com/productimages/550x825/j2230015_7054_a.jpg'),
+(4, 'Helmets','https://productimage001.snowandrock.com/productimages/550x825/e4gc3a0035_7036_a.jpg'),
+(5, 'Googles','https://productimage001.snowandrock.com/productimages/550x825/e4ga390294_7053_a.jpg'),
+(6, 'Jackets','https://productimage001.snowandrock.com/productimages/550x825/e12aca0324_5151_a.jpg'),
+(7, 'Pants','https://productimage001.snowandrock.com/productimages/550x825/h1214353_5151_a.jpg');
